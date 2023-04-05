@@ -1,0 +1,6 @@
+{% include css/bootstrap.min.css %}
+{% include css/main.css %}
+{% include css/header.css %}
+{% include css/navbar.css %}
+{% include css/about.css %}
+/* {{ content }} */
