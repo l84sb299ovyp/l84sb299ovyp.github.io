@@ -1,0 +1,35 @@
+---
+
+---
+
+$base_url: "{{ site.baseurl }}";
+
+// 
+// Styles
+// 
+
+// Import variables
+@import "variables";
+
+// Import Bootstrap
+// @import "bootstrap/functions";
+// @import 'bootstrap/variables';
+// @import "bootstrap/mixins";
+@import 'bootstrap/bootstrap';
+
+// Global CSS
+@import "global";
+
+// Components
+@import "components/navbar";
+@import "components/buttons";
+
+// Sections
+@import "./sections/masthead";
+@import "./sections/portfolio";
+@import "./sections/timeline";
+@import "./sections/team";
+@import "./sections/contact";
+@import "./sections/footer";
+@import "./sections/about";
+@import "./sections/nav";

@@ -1,5 +1,5 @@
 url: l84sb299ovyp.github.io
-baseurl: /
+baseurl: 
 
 # Site settings
 title: Consilier DG
@@ -64,3 +64,10 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]

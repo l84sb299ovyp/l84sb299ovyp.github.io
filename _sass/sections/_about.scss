@@ -1,0 +1,11 @@
+$background-size: contain;
+#about {
+    background-attachment: scroll;
+    background-image: url("#{$base_url}img/flytebru-over-bjrnafjorden copy.png");
+    background-position: center center;
+    background-size: $background-size;
+    background-repeat: no-repeat;
+    -webkit-background-size: $background-size;
+    -moz-background-size: $background-size;
+    -o-background-size: $background-size;
+}
