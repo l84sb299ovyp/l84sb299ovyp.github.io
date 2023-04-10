@@ -16,6 +16,7 @@ $base_url: "{{ site.baseurl }}";
 // @import 'bootstrap/variables';
 // @import "bootstrap/mixins";
 @import 'bootstrap/bootstrap';
+@import 'flag-icons/flag-icons';
 
 // Global CSS
 @import "global";

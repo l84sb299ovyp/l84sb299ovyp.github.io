@@ -2,24 +2,24 @@
   pic: assets/img/team/1.jpg
   position: Founder, Chairman
   social:
-    - title: instagram
-      url: #
-    - title: facebook
-      url: #
-    - title: tiktok
-      url: #
+    - title: linkedin
+      url: https://linkedin.com/in/veaceslav-cebotari-07456941
 
-- name: Victor Haruta
+- name: Victor Haruța
   pic: assets/img/team/2.jpg
-  position: Founder,Secretary General
+  position: Founder, Secretary General
   social:
+    - title: linkedin
+      url: https://linkedin.com/in/victor-haruta
 
 - name: Thomas Martin Wiggen
   pic: 3
   position: Founder, Member of Board
   social:
+    - title: facebook
+      url: https://www.facebook.com/profile.php?id=100003597630270
 
 - name: Olga Silistraru
   pic: 3
-  position: Councellor to the Chairman
+  position: Counsellor to the Chairman
   social:
