@@ -68,4 +68,43 @@ section#contact {
             color: $gray-400;
         }
     }
+        /* Location, Phone, Email Section */
+        .contact-list {
+            list-style-type: none;
+        }
+    
+        .list-item {
+            line-height: 4;
+            color: #fff;
+            display: flex;
+            align-items: center;
+        }
+    
+        .contact-text {
+            // font: 300 32px 'Lato', sans-serif;
+            font-family: inherit;
+            font-size: 1.56rem;
+            font-weight: bold;
+            letter-spacing: 1.9px;
+            color: #fff;
+        }
+    
+        .phone {
+            margin-left: 56px;
+        }
+    
+        .gmail {
+            margin-left: 53px;
+        }
+    
+        .contact-text a {
+            color: #ffff;
+            text-decoration: none;
+            transition-duration: 0.2s;
+        }
+    
+        .contact-text a:hover {
+            color: #fff;
+            text-decoration: none;
+        }
 }

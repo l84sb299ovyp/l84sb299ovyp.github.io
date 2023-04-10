@@ -1,0 +1,25 @@
+- name: Veaceslav Cebotar
+  pic: assets/img/team/1.jpg
+  position: Founder, Chairman
+  social:
+    - title: instagram
+      url: #
+    - title: facebook
+      url: #
+    - title: tiktok
+      url: #
+
+- name: Victor Haruta
+  pic: assets/img/team/2.jpg
+  position: Founder,Secretary General
+  social:
+
+- name: Thomas Martin Wiggen
+  pic: 3
+  position: Founder, Member of Board
+  social:
+
+- name: Olga Silistraru
+  pic: 3
+  position: Councellor to the Chairman
+  social:
