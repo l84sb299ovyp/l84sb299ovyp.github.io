@@ -3,9 +3,8 @@
 //
 
 #mainNav {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: $gray-900;
+    min-width: 451px;
+    opacity: 0.9;
 
     .navbar-toggler {
 
@@ -48,8 +47,6 @@
 // Responsive styling for screen width equal to or greater than the large breakpoint
 @include media-breakpoint-up(lg) {
     #mainNav {
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
         border: none;
         background-color: transparent;
         transition: padding-top 0.3s ease-in-out,
