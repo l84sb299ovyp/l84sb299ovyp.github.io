@@ -10,9 +10,9 @@ description: "MOLDOVA-NORWAY Research and Business Development Council. The king
 
 # SEO
 image:
-  path: img/logos/logo.png
-  height: 256
-  width: 256
+  path: img/logos/logob.png
+  height: 128
+  width: 128
   alt: MOLDOVA-NORWAY Research and Business Development Council
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
