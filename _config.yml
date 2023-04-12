@@ -1,4 +1,5 @@
 url: l84sb299ovyp.github.io
+# baseurl: /test
 baseurl: 
 
 # Site settings
@@ -6,6 +7,13 @@ title: MOLDOVA-NORWAY Research and Business Development Council
 logo: img/logos/logo.png
 email: consilier@moldovanorway.md
 description: "MOLDOVA-NORWAY Research and Business Development Council. The kingdom of Norway, Research and business development council, Republic of Moldova"
+
+# SEO
+image:
+  path: img/logos/logo.png
+  height: 256
+  width: 256
+  alt: MOLDOVA-NORWAY Research and Business Development Council
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -33,5 +41,8 @@ permalink: pretty
 sass:
   sass_dir: _sass
   style: compressed
+
+plugins:
+  - jekyll-seo-tag
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]

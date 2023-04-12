@@ -7,7 +7,7 @@
         <ul class="timeline">
             {% for about in site.data.about %}
             <li>
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{ about.image | prepend: site.baseurl }}" alt="" /></div>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{ about.image | prepend: '/' | prepend: site.baseurl }}" alt="" /></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <h4>{{ about.fork }}</h4>
