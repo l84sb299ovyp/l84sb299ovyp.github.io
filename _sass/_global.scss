@@ -25,6 +25,7 @@ p {
 
 // Spacing and heading styling for page sections
 
+
 .page-section {
     padding: 6rem 0;
 
@@ -32,14 +33,19 @@ p {
         font-size: 2.5rem;
         margin-top: 0;
         margin-bottom: 1rem;
+        font-weight: $font-weight-normal;
     }
 
     h3.section-subheading {
         font-size: 1rem;
-        font-weight: 400;
+        font-weight: $font-weight-normal;
         font-style: italic;
         font-family: $subheadings-font-family;
         margin-bottom: 4rem;
+    }
+
+    h4 {
+        font-weight: $font-weight-normal;
     }
 }
 

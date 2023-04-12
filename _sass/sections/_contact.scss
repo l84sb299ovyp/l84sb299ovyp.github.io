@@ -82,8 +82,9 @@ section#contact {
         }
     
         .contact-text {
+            font-family: $headings-font-family;
             font-size: 1.56rem;
-            font-weight: bold;
+            font-weight:  $font-weight-normal;
             letter-spacing: 1.9px;
             color: #fff;
         }
@@ -93,7 +94,7 @@ section#contact {
         }
     
         .gmail {
-            font-size: 0.93rem;
+            font-size: 0.89rem;
             margin-left: 56px;
             width: 100%;
             letter-spacing: 0px;
