@@ -5,21 +5,31 @@ local_backend: true
 media_folder: 'assets/img'
 collections:
   - label: "Data"
-    name: "_data"
+    name: "data"
     files:
       - label: "About"
         name: "about"
-        file: "_data/about.yml"
+        file: "data/about.yml"
         fields:
           - label: "Poza"
             name: "image"
             widget: "image"
             choose_url: false
+            required: true
             media_library:
               config:
                 multiple: false
           - label: "Date"
             name: "fork"
             widget: "string"
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "markdown" }
+            type: string
+            required: true
+          - label: "Title"
+            name: "title"
+            widget: "string"
+            type: string
+            required: true
+          - label: "Description"
+            name: "description"
+            widget: "markdown"
+            required: false
